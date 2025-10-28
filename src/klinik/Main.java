@@ -98,8 +98,8 @@ class Animal {
             finalBill = totalSebelumDiskon - diskon; // Kurangi total tagihan dengan diskon
             System.out.println("Diskon (10%): -Rp" + diskon);
         }
-// --- KODE FITUR BARU SELESAI ---
 
+        // --- KODE FITUR BARU SELESAI ---
         System.out.println("Total Tagihan: Rp" + finalBill);
         System.out.println("-----------------------");
 
@@ -152,7 +152,7 @@ class Clinic {
      * @return Sebuah {@code integer} yang merepresentasikan biaya pendaftaran dasar.
      */
     static int displayRegistrationDetails() {
-        return 50000;
+        return 80000;
     }
 }
 
