@@ -89,7 +89,7 @@ class Animal {
         System.out.println("Pajak (11%): Rp" + tax);
         System.out.println("Total Tagihan: Rp" + finalBill);
 
-        // --- KODE FITUR BARU DIMULAI DI SINI ---
+        // --- KODE FITUR BARU DIMULAI ---
         double totalSebelumDiskon = total + tax;
         finalBill = totalSebelumDiskon;
 
