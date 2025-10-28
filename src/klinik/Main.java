@@ -52,19 +52,7 @@ class Animal {
         double total = baseRegistrationFee + speciesSpecificFee;
         double tax = total * Clinic.TAX_RATE; // PPN 11%
         
-        // --- KODE FITUR BARU DIMULAI ---
-        double totalSebelumDiskon = total + tax;
-        finalBill = totalSebelumDiskon;
 
-        if (totalSebelumDiskon > 100000) {
-            double diskon = totalSebelumDiskon * 0.10; // Diskon 10%
-            finalBill = totalSebelumDiskon - diskon; // Kurangi total tagihan dengan diskon
-            System.out.println("Diskon (10%): -Rp" + diskon);
-        }
-
-        // --- KODE FITUR BARU SELESAI ---
-        System.out.println("Total Tagihan: Rp" + finalBill);
-        System.out.println("-----------------------");
     }
 }
 
