@@ -51,6 +51,7 @@ class Animal {
 
         double total = baseRegistrationFee + speciesSpecificFee;
         double tax = total * Clinic.TAX_RATE; // PPN 11%
+        
         // --- KODE FITUR BARU DIMULAI ---
         double totalSebelumDiskon = total + tax;
         finalBill = totalSebelumDiskon;
